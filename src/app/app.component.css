@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 70px auto;
+    height: 100%;
+}
+.containerclose
+{
+    display: grid;
+    grid-template-columns: 140px auto;
+    height: 100%;
+}

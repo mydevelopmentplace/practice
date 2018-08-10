@@ -1,0 +1,10 @@
+li.li-outer{
+    padding: 10px;
+    background: white;
+    margin: 20px;
+}
+a.name{
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+}

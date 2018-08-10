@@ -1,0 +1,28 @@
+<nav *ngIf="childMessage">
+  <ul>
+    <li>
+      <a routerLink="/users" [class.activated]="currentUrl == '/users'">
+<i class="material-icons">supervised_user_circle</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="posts" [class.activated]="currentUrl == '/posts'">
+        <i class="material-icons">message</i>
+      </a>
+    </li>
+  </ul>
+</nav>
+<nav *ngIf="!childMessage">
+    <ul>
+      <li>
+        <a routerLink="/users" [class.activated]="currentUrl == '/users'">
+          <i class="material-icons" style="position: absolute;">supervised_user_circle</i><span  style="margin-left: 30px;">Users</span> 
+        </a>
+      </li>
+      <li>
+        <a routerLink="posts" [class.activated]="currentUrl == '/posts'">
+          <i class="material-icons" style="position: absolute;">message</i> <span align="center" style="margin-left: 30px;">Messages</span>
+        </a>
+      </li>
+    </ul>
+  </nav>

@@ -1,0 +1,87 @@
+.error{
+    color: red;
+    text-align: center;
+    margin: 0 auto;
+}
+.col-sm-12-new {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.form-card {
+    border-radius: 2px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin:  30px;
+  }
+  .tab {
+    width: 50%;
+    border-radius: 2px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin:  30px;
+  }
+  .table-new {
+    background-color: #1abc9c;
+    color: #fff;
+    border: 3px solid #1abc9c;
+  }
+
+  .table-new1 {
+    background-color: #148f77;
+    border: 3px solid #148f77;
+  }
+  td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  th {
+    vertical-align: middle;
+    text-align: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ic{
+  margin-left: 5px;
+}
+button:hover .tooltiptext {
+  visibility: visible;
+}
+button .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: rgba(73, 67, 67, 0.589);
+color: rgb(255, 255, 255);
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+button:hover .tooltiptext1 {
+  visibility: visible;
+}
+button .tooltiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(73, 67, 67, 0.589);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 18px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  right: 1%;
+}

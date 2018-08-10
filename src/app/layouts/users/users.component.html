@@ -1,0 +1,19 @@
+<h1>Users</h1>
+
+<ul [@listStagger]="users$">
+  <li *ngFor="let user of users$" class="li-outer">
+    <a routerLink="/details/{{user.id}}" class="name">{{ user.name }}</a>
+
+    <ul>
+      <li>{{ user.email }}</li>
+      <li><a href="http://{{ user.website }}">{{ user.website }}</a></li>
+    </ul>
+  </li>
+</ul>
+<ul>
+    <li *ngFor="let item of items | async">
+      {{ item.born }}
+      {{ item.first }}
+      {{ item.last }}
+    </li>
+  </ul>

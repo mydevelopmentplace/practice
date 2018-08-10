@@ -1,0 +1,24 @@
+<div style="background: yellowgreen">
+<button (click)="toggleCollapse()" class="navbar-toggler navbar-toggler-right" type="button">toggle</button>
+  <!-- other navbar code omitted -->
+   <div class="collapse" [class.show]="show">
+      <!-- <div class="collapse show"  [@collapse]="collapse"> -->
+    <span [hidden]="collapse=='open'">dsfddf</span>
+    <span [hidden]="collapse=='closed'">gfgdb</span>
+    
+
+    <button (click)="sendMessage()">Send Message</button>
+
+  </div>
+  </div>
+
+    
+  <div id="menu">
+      <ul>                                        
+        <li><a class="current" href="home.html" title=""><img src=""><span>HOME</span></a></li>
+        <li><a href="services.html" title=""><img src=""><span>TRANSPORT</span></a></li>
+        <li><a href="#" title=""><img src=""><span>ACCOMODATION</span></a></li>
+        <li><a href="#" title=""><img src=""><span>DEALS</span></a></li>
+        <li><a href="contact.html" title=""><img src=""><span>CONTACT</span></a></li>
+      </ul>
+    </div>

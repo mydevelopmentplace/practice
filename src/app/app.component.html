@@ -1,0 +1,16 @@
+<!-- <h1>Angular Router</h1>
+  <nav>
+    <a routerLink="/home" routerLinkActive="active" (click)="setTitle('Home')">Home</a>
+    <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+  </nav>
+  <router-outlet></router-outlet> -->
+  <div class="topbar">
+    <app-topbar></app-topbar>
+  </div>
+  <div class="collapse" [class.show]="show" [class.containerclose] = "collapse=='open'" [class.container] = "collapse=='closed'">
+    <app-sidebar [hidden]="collapse=='open'" [childMessage]="true"></app-sidebar>
+    <app-sidebar [hidden]="collapse=='closed'" [childMessage]="false"></app-sidebar>
+    <div id="content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
